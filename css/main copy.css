@@ -17,28 +17,27 @@ a {
   width: 100%;
 }
 .inner {
-  position: relative;
   width: 100%;
-  max-width: 1280px;
+  max-width: 960px;
   margin: auto;
-  background-color: rgb(255, 83, 4);
+  background-color: rgb(245, 245, 197);
 }
 .header {
   width: 100%;
   height: 100px;
   display: flex;
-  justify-content: space-between;
-
   background-color: rgb(63, 70, 63);
 }
 .logo {
+
   width: 20%;
   background-color: paleturquoise;
 }
 .menu-wrap {
-  position: relative;
 
-  background-color: rgb(231, 168, 51);
+  height: 70%;
+
+  background-color: aliceblue;
 }
 .menu-top {
   width: 100%;
@@ -46,25 +45,24 @@ a {
   background-color: palevioletred;
   display: flex;
 }
-
+.menu-bottom {
+  width: 100%;
+  height: 50%;
+  background-color: salmon;
+}
 .sub-menu {
   background-color: peachpuff;
 }
 .icon {
   background-color: powderblue;
 }
-.main-menu {
-  width: 100%;
-}
-/* banner
- */
-.banner {
+/* banner */
+.banner{
   width: 100%;
   position: relative;
 }
-.banner img {
+.banner img{
   width: 100%;
-  display: block;
 }
 .B {
   display: flex;
@@ -86,19 +84,10 @@ a {
   padding: 10px 5px;
 }
 .notice {
-  position: relative;
-  width: 100%;
-  background-color: rgb(74, 212, 97);
+  background-color: rgb(11, 53, 18);
 }
-.notice img {
-  width: 100%;
-  display: block;
-}
-.notice-left-img {
-  position: absolute;
-  bottom: 50%;
-  left: 0;
-  transform: translateY(-50%);
+.notice-inner {
+  width: (calc(100% / 3));
 }
 .visual1 {
   width: 100%;
@@ -107,7 +96,6 @@ a {
 }
 .visual1 img {
   width: 100%;
-  display: block;
 }
 .visual2 {
   position: absolute;
@@ -119,10 +107,7 @@ a {
   left: 0;
   background-color: rgb(143, 13, 35);
 }
-.visual3 img {
-  width: 100%;
-  display: block;
-}
+
 .paper {
   background-color: aquamarine;
 }
