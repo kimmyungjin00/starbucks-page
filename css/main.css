@@ -66,18 +66,19 @@ a {
   width: 100%;
   display: block;
 }
-.B {
+.a {
   display: flex;
   /* text-align: center; */
   padding: 10px 5px;
   gap: 100px;
 }
 
-.A {
+.b {
   display: flex;
   gap: 100px;
   padding: 10px 5px;
 }
+
 .notice {
   position: relative;
   width: 100%;
