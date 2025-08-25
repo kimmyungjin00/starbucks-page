@@ -134,13 +134,21 @@ a {
 .login-after {
   padding-top: 5px;
 }
-.signin-login .s {
-width: 98px;
-height: 38px;
-  border-radius: 10px;
-  background-color:  #1e3932;
+.signin-login {
+  position: relative;
 }
-.signin-login .s a{
+.signin-login .s {
+  position: absolute;
+  bottom: 17px;
+  right: 62px;
+  width: 98px;
+  height: 38px;
+  border-radius: 10px;
+  background-color: #34685a;
+}
+.signin-login .s a {
+  padding-left: 15px;
+  padding-top: 15px;
   color: white;
 }
 .mobile-card {
