@@ -13,7 +13,6 @@ a {
   color: #333;
 }
 .wrap {
-  background-color: palegoldenrod;
   width: 100%;
 }
 .inner {
@@ -28,30 +27,23 @@ a {
   height: 100px;
   display: flex;
   justify-content: space-between;
-
-  background-color: rgb(63, 70, 63);
 }
 .logo {
   width: 20%;
-  background-color: paleturquoise;
+  padding-left: 50px;
+  padding-top: 10px;
 }
 .menu-wrap {
   position: relative;
-
-  background-color: rgb(231, 168, 51);
 }
 .menu-top {
   width: 100%;
   height: 50%;
-  background-color: palevioletred;
   display: flex;
 }
-
-.sub-menu {
-  background-color: peachpuff;
-}
 .icon {
-  background-color: powderblue;
+  padding-top: 15px;
+  padding-left: 10px;
 }
 .main-menu {
   width: 100%;
@@ -66,19 +58,65 @@ a {
   width: 100%;
   display: block;
 }
+.menu-wrap {
+  padding-right: 150px;
+}
 .a {
   display: flex;
   /* text-align: center; */
   padding: 10px 5px;
-  gap: 100px;
+  gap: 10px;
+  font-size: small;
 }
-
+.a li:hover {
+  text-decoration: underline;
+}
 .b {
   display: flex;
   gap: 100px;
   padding: 10px 5px;
 }
-
+.b li:hover {
+  color: white;
+  background-color: #444142;
+}
+.gongzisahang {
+  width: 100%;
+  height: 400px;
+  background-color:#1E3932;
+  
+}
+.gongzisahang-top{
+  display: flex;
+}
+.gongzisahaang-left {
+  height: 50px;
+  width: 50%;
+  background-color: black;
+}
+.gongzisahaang-left h3{
+  color: white;
+  font-size:16px ;
+  padding-left: 150px ;
+  padding-top: 10px;
+}
+.gongzisahaang-right{
+  height: 50px;
+  width: 50%;
+  background-color: blanchedalmond;
+}
+.gongzisahaang-right h3{
+  font-size:16px ;
+  padding-left: 150px ;
+  padding-top: 10px;
+}
+.gongzisahang-logo{
+  padding-left: 100px ;
+  padding-top:60px;
+}
+.gongzisahang-txt {
+  display: flex;
+}
 .notice {
   position: relative;
   width: 100%;
@@ -89,7 +127,7 @@ a {
 }
 .notice .inner {
   position: relative;
-  bottom: 350px;
+  bottom: 280px;
 }
 .notice-left-img {
   position: absolute;
