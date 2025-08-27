@@ -211,6 +211,7 @@ a {
 }
 .visual2 .inner {
   width: 100%;
+  display: block;
   /* height: auto; */
 }
 .visual-imgwrap {
