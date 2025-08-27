@@ -205,35 +205,28 @@ a {
   width: 100%;
   display: block;
 }
-.visual2 > img {
-  width: 100%;
+.visual2 {
   position: relative;
+  width: 100%;
 }
 .visual2 .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;                
   width: 100%;
-  /* height: auto; */
+  height: auto;
+  background-color: red;
+}
+.visual2 > img {
+  width: 100%;
 }
 .visual-imgwrap {
   position: absolute;
-  bottom: 200px;
-  left: 150px;
-  color: #fff;
+  top: 0;
+  left: 0;
   display: flex;
-}
-.visual-imgwrap h1 {
-  padding-top: 50px;
-  /* padding-right: 50px; */
-}
-/* .visual-imgwrap .visual-Txt {
-  padding-top: 100px;
-} */
-.visual-leftTxt {
-  /* padding-right: 50px; */
-  padding-top: 30px;
-}
-.visual-rightimg {
+  background-color: aqua;
   width: 100%;
-  padding-left: 30px;
 }
 
 .visual3 {
