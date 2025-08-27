@@ -136,6 +136,7 @@ a {
   padding-top: 5px;
 }
 .signin-login {
+<<<<<<< HEAD
   display: flex;
   justify-content: flex-end;
   height: 10px;
@@ -152,6 +153,22 @@ a {
 .signin-login a {
   width: 98px;
   height: 10px;
+=======
+  position: relative;
+}
+.signin-login .s {
+  position: absolute;
+  bottom: 17px;
+  right: 62px;
+  width: 98px;
+  height: 38px;
+  border-radius: 10px;
+  background-color: #34685a;
+}
+.signin-login .s a {
+  padding-left: 15px;
+  padding-top: 15px;
+>>>>>>> b0e073d733ae877b1c59ada05c8146e5670ddf74
   color: white;
   border-radius: 10px;
   border: 1px solid white;
